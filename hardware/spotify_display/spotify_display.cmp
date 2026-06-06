@@ -1,0 +1,43 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-06-06T17:16:28+0530
+
+BeginCmp
+TimeStamp = abbe88c0-5429-4d0d-a3c7-26825495f29d
+Path = /9463c64a-11e7-46f9-8df1-be216e7981d2
+Reference = U2;
+ValeurCmp = ST7735;
+IdModule  = PhilsFootprintLibrary:Display_ST7735;
+EndCmp
+
+BeginCmp
+TimeStamp = 938ad12f-6f5d-460c-8836-207183c4cd3a
+Path = /7a52eb59-ca81-44b7-9cc6-7381a7412f8e
+Reference = U1;
+ValeurCmp = WEMOS_C3_mini;
+IdModule  = RF_Module:WEMOS_C3_mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 3c14120b-1db4-4855-b5f2-705b96ea7840
+Path = /1308548e-e7e6-4907-9848-8269da303e34
+Reference = SW3;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = f878ee6b-c1a9-4a93-a8b2-7768db3e1108
+Path = /8f93c602-e81d-472c-b74f-9fe1ac19f56f
+Reference = SW2;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = b978442f-5c2f-4da2-8211-ee91896b91eb
+Path = /0570fb72-6100-44c5-9666-3898ca8bda8d
+Reference = SW1;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+EndListe
