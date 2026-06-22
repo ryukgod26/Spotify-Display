@@ -5,6 +5,288 @@
 	(uuid "4539219a-db65-428b-bdec-993c35018d0c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:RotaryEncoder"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PhilsLibrary:ST7735"
 			(pin_names
 				(offset 1.016)
@@ -884,10 +1166,28 @@
 		)
 	)
 	(junction
+		(at 152.4 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c75bdcb-30d1-4fda-bec1-aa44fd0fc52a")
+	)
+	(junction
+		(at 152.4 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6695c55f-2a15-4061-a428-7e1ce0eea637")
+	)
+	(junction
 		(at 143.51 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67bd5c47-9a51-4423-abed-357fb9fc4169")
+	)
+	(junction
+		(at 152.4 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d1d4fd6-af75-4b51-8896-9fe5f7503d01")
 	)
 	(junction
 		(at 170.18 115.57)
@@ -902,6 +1202,10 @@
 		(uuid "c27c96ab-01ef-4dab-bc83-b3822c1cd922")
 	)
 	(no_connect
+		(at 148.59 85.09)
+		(uuid "081ca0bb-a664-4d66-b845-b836e124a7f4")
+	)
+	(no_connect
 		(at 128.27 82.55)
 		(uuid "13e3d33f-4d2f-4a53-9994-ba0474a9e978")
 	)
@@ -914,20 +1218,12 @@
 		(uuid "2586987c-70b3-48f2-9dfb-955cc2e29c3a")
 	)
 	(no_connect
-		(at 148.59 82.55)
-		(uuid "2c4072ae-889b-4de8-b02e-21183b989dd5")
-	)
-	(no_connect
 		(at 128.27 95.25)
 		(uuid "75cf2994-c425-4346-949b-8d86453673c4")
 	)
 	(no_connect
 		(at 138.43 74.93)
 		(uuid "8a21f1cb-88d3-4f87-9634-30f9bd6c3c61")
-	)
-	(no_connect
-		(at 148.59 107.95)
-		(uuid "8d4445da-e4e0-46d7-a42e-74304fc12278")
 	)
 	(no_connect
 		(at 177.8 82.55)
@@ -944,14 +1240,6 @@
 	(no_connect
 		(at 177.8 90.17)
 		(uuid "c63dbf76-e8d8-4f3f-ae81-ddfac2b76fda")
-	)
-	(no_connect
-		(at 148.59 85.09)
-		(uuid "c9c8d20d-81f2-481f-9ae2-40a8edd64f07")
-	)
-	(no_connect
-		(at 128.27 92.71)
-		(uuid "f1e97e83-30bf-4dd2-8aaf-7be01e01b899")
 	)
 	(wire
 		(pts
@@ -985,6 +1273,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6b1d45-eaf7-4b51-8c0b-0d8e3310a3bf")
+	)
+	(wire
+		(pts
 			(xy 148.59 105.41) (xy 151.13 105.41)
 		)
 		(stroke
@@ -1015,6 +1313,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 69.85) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b4641e-5096-4e2c-8855-887e28fa7651")
+	)
+	(wire
+		(pts
 			(xy 151.13 132.08) (xy 180.34 132.08)
 		)
 		(stroke
@@ -1025,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 115.57) (xy 157.48 115.57)
+			(xy 143.51 115.57) (xy 152.4 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1075,6 +1383,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b1976b-737e-4c41-81ce-37c4d01a1944")
+	)
+	(wire
+		(pts
 			(xy 143.51 115.57) (xy 143.51 125.73)
 		)
 		(stroke
@@ -1092,6 +1410,16 @@
 			(type default)
 		)
 		(uuid "5ecc1303-20f6-4d08-93bc-29bc6ea33c46")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61790f76-e16d-4376-bfb6-60284ec6dad4")
 	)
 	(wire
 		(pts
@@ -1115,13 +1443,53 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 152.4 92.71)
+			(xy 152.4 95.25) (xy 152.4 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9373dfe7-6d07-4630-aa8d-b9f5b4d8597c")
+		(uuid "79784561-b1e7-4879-a528-da768fff58ab")
+	)
+	(wire
+		(pts
+			(xy 168.91 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f961bda-2c9e-4e44-8064-702a4fab5e51")
+	)
+	(wire
+		(pts
+			(xy 152.4 92.71) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a87913-0e8e-4524-921d-b7aa74eda1c8")
+	)
+	(wire
+		(pts
+			(xy 124.46 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89149855-8741-4419-bfa4-4dd5cda394cd")
+	)
+	(wire
+		(pts
+			(xy 168.91 72.39) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bab00b6-7ee1-4b50-8165-e580d868aeb8")
 	)
 	(wire
 		(pts
@@ -1142,6 +1510,16 @@
 			(type default)
 		)
 		(uuid "9694f21d-67af-4cac-9a3b-b1fbc00b7c37")
+	)
+	(wire
+		(pts
+			(xy 157.48 67.31) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a373274b-382e-48db-9097-193e4ed0596c")
 	)
 	(wire
 		(pts
@@ -1172,6 +1550,16 @@
 			(type default)
 		)
 		(uuid "c3f40300-cf2c-4ffa-bc3d-8593b0cb52ab")
+	)
+	(wire
+		(pts
+			(xy 168.91 67.31) (xy 157.48 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c667b01c-6e7d-46c2-a63d-e056352ecb72")
 	)
 	(wire
 		(pts
@@ -1222,6 +1610,16 @@
 			(type default)
 		)
 		(uuid "cec317a8-7402-4925-b60b-e43ca84726eb")
+	)
+	(wire
+		(pts
+			(xy 157.48 107.95) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9e2c51-708a-467c-9f08-18684e0cc250")
 	)
 	(wire
 		(pts
@@ -1424,6 +1822,79 @@
 			(project "spotify_display"
 				(path "/4539219a-db65-428b-bdec-993c35018d0c"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder")
+		(at 176.53 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68e4261f-ff30-4533-9300-1cd11bfbc08c")
+		(property "Reference" "SW4"
+			(at 182.88 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RotaryEncoder"
+			(at 182.88 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
+			(at 172.72 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "096e9e3b-e499-4d4b-a819-9c81e45edcda")
+		)
+		(pin "B"
+			(uuid "f12bd12d-f63b-4d33-8348-815af25da646")
+		)
+		(pin "A"
+			(uuid "0aa62773-57d5-4571-a62a-d41e97d2f4f4")
+		)
+		(instances
+			(project ""
+				(path "/4539219a-db65-428b-bdec-993c35018d0c"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
