@@ -36,10 +36,10 @@ long totalDurationMs = 240000;
 String lastArtist;
 String lastTrackname;
 
-char* SSID = "";
-char* PASSWORD = "";
-const char* CLIENT_ID = "";
-const char* CLIENT_SECRET = "";
+char* SSID = "Bablu";
+char* PASSWORD = "Ravisumit";
+const char* CLIENT_ID = "0e2d5fca3d0b4d6d8c92e9e011d6374d";
+const char* CLIENT_SECRET = "1d1f870dace54b358bcce9a7c5082176";
 
 Spotify sp(CLIENT_ID, CLIENT_SECRET);
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);

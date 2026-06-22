@@ -1241,6 +1241,10 @@
 		(at 177.8 90.17)
 		(uuid "c63dbf76-e8d8-4f3f-ae81-ddfac2b76fda")
 	)
+	(no_connect
+		(at 148.59 82.55)
+		(uuid "fb219002-f860-4fa5-b59f-4c13afe0e9c6")
+	)
 	(wire
 		(pts
 			(xy 156.21 91.44) (xy 156.21 97.79)

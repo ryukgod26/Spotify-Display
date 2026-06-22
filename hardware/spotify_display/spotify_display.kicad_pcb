@@ -2075,7 +2075,7 @@
 			(remove_unused_layers no)
 			(net 23 "unconnected-(U1-3V3-Pad8)")
 			(pinfunction "3V3")
-			(pintype "power_out")
+			(pintype "power_out+no_connect")
 			(uuid "dc96d564-1c92-4e37-a916-f2842f74c252")
 		)
 		(pad "9" thru_hole oval
